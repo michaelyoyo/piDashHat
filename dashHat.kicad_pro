@@ -225,6 +225,10 @@
           "drill": 0.254
         },
         {
+          "diameter": 0.508,
+          "drill": 0.349758
+        },
+        {
           "diameter": 0.762,
           "drill": 0.508
         }
@@ -469,7 +473,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -486,7 +490,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -641,7 +645,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -672,6 +676,10 @@
     [
       "4ce8c0d0-7019-4708-97c2-a0fe11867b33",
       "RS232"
+    ],
+    [
+      "d9d1691d-e577-41b2-854b-9361f81b372c",
+      "GPIO"
     ]
   ],
   "text_variables": {}
