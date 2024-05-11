@@ -379,23 +379,22 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal"
-			(pin_numbers hide)
+		(symbol "Device:Crystal_GND2_Small"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Y"
-				(at 0 3.81 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
+			(property "Value" "Crystal_GND2_Small"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -420,7 +419,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Two pin crystal"
+			(property "Description" "Three pin crystal, GND on pin 2, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -447,22 +446,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_0_1"
+			(symbol "Crystal_GND2_Small_0_1"
 				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
+					(start -0.762 -1.524)
+					(end 0.762 1.524)
 					(stroke
 						(width 0)
 						(type default)
@@ -473,10 +460,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
+						(xy -1.27 -0.762) (xy -1.27 0.762)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.381)
 						(type default)
 					)
 					(fill
@@ -485,10 +472,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
+						(xy 1.27 -0.762) (xy 1.27 0.762)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.381)
 						(type default)
 					)
 					(fill
@@ -497,7 +484,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 1.905 0)
+						(xy -1.27 -1.27) (xy -1.27 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -508,9 +495,9 @@
 					)
 				)
 			)
-			(symbol "Crystal_1_1"
+			(symbol "Crystal_GND2_Small_1_1"
 				(pin passive line
-					(at -3.81 0 0)
+					(at -2.54 0 0)
 					(length 1.27)
 					(name "1"
 						(effects
@@ -522,14 +509,14 @@
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
+					(at 0 -2.54 90)
+					(length 0.635)
 					(name "2"
 						(effects
 							(font
@@ -540,7 +527,25 @@
 					(number "2"
 						(effects
 							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -2424,7 +2429,7 @@
 		(uuid "6fbd3dcc-23c3-4d7b-b124-20619aec9c2d")
 	)
 	(junction
-		(at 72.39 101.6)
+		(at 69.85 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b133409-d5f7-455f-a144-bb950f8b6c82")
@@ -2452,6 +2457,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af9cdc0e-74ba-41b7-8a6b-2a66bb4a83ae")
+	)
+	(junction
+		(at 80.01 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf3cd085-3622-4add-90d6-04633821a1a5")
 	)
 	(junction
 		(at 87.63 101.6)
@@ -2505,16 +2516,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 101.6) (xy 87.63 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c034c02-1b5b-4498-8a13-a34ccca04996")
-	)
-	(wire
-		(pts
 			(xy 121.92 67.31) (xy 144.78 67.31)
 		)
 		(stroke
@@ -2532,6 +2533,16 @@
 			(type default)
 		)
 		(uuid "13a0f080-de1d-40d6-9293-f1ec2b5c1792")
+	)
+	(wire
+		(pts
+			(xy 80.01 120.65) (xy 87.63 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "140ce69b-24a3-4b61-87c9-9f211f543bb4")
 	)
 	(wire
 		(pts
@@ -2615,7 +2626,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 101.6) (xy 76.2 101.6)
+			(xy 69.85 101.6) (xy 77.47 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2665,7 +2676,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 87.63) (xy 91.44 87.63)
+			(xy 69.85 87.63) (xy 91.44 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2835,6 +2846,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 104.14) (xy 80.01 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c44894-da94-4353-b840-2fc64eed1d36")
+	)
+	(wire
+		(pts
 			(xy 219.71 87.63) (xy 248.92 87.63)
 		)
 		(stroke
@@ -2935,6 +2956,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 101.6) (xy 87.63 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf780a3e-79d9-4d9a-8393-783e36cca6e0")
+	)
+	(wire
+		(pts
 			(xy 144.78 113.03) (xy 144.78 72.39)
 		)
 		(stroke
@@ -2945,7 +2976,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 114.3) (xy 72.39 120.65)
+			(xy 69.85 114.3) (xy 69.85 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2975,7 +3006,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 106.68) (xy 72.39 101.6)
+			(xy 69.85 106.68) (xy 69.85 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2995,7 +3026,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 120.65) (xy 87.63 120.65)
+			(xy 69.85 120.65) (xy 80.01 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3005,7 +3036,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 101.6) (xy 72.39 87.63)
+			(xy 69.85 101.6) (xy 69.85 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3922,7 +3953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
+		(lib_id "Device:Crystal_GND2_Small")
 		(at 80.01 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3932,7 +3963,7 @@
 		(fields_autoplaced yes)
 		(uuid "696793cc-da2b-43f1-a943-21e98c5e7c97")
 		(property "Reference" "Y2"
-			(at 80.01 94.8901 0)
+			(at 80.01 96.0585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,7 +3971,7 @@
 			)
 		)
 		(property "Value" "8MHz"
-			(at 80.01 97.3144 0)
+			(at 80.01 98.4828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,7 +3996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal"
+		(property "Description" "Three pin crystal, GND on pin 2, small symbol"
 			(at 80.01 101.6 0)
 			(effects
 				(font
@@ -3988,6 +4019,9 @@
 		)
 		(pin "2"
 			(uuid "bc68dd90-9a7a-413e-b5cc-61f5aea0d71a")
+		)
+		(pin "3"
+			(uuid "b38c6055-2ae0-4ca8-b444-ba76183521a4")
 		)
 		(instances
 			(project "dashHat"
@@ -4140,7 +4174,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 72.39 110.49 0)
+		(at 69.85 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4149,7 +4183,7 @@
 		(fields_autoplaced yes)
 		(uuid "6dce6850-d8a4-44d2-87ac-454fc0efcde8")
 		(property "Reference" "C26"
-			(at 75.311 109.2778 0)
+			(at 72.771 109.2778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,7 +4192,7 @@
 			)
 		)
 		(property "Value" "22p"
-			(at 75.311 111.7021 0)
+			(at 72.771 111.7021 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +4201,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 73.3552 114.3 0)
+			(at 70.8152 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +4210,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 110.49 0)
+			(at 69.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4185,7 +4219,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 72.39 110.49 0)
+			(at 69.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +4228,7 @@
 			)
 		)
 		(property "Mfg Part Number" "VJ0603A220KXAAC"
-			(at 72.39 110.49 0)
+			(at 69.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,7 +4486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part Number" "BSS84"
+		(property "Mfg Part Number" "2N7002"
 			(at 160.02 113.03 0)
 			(effects
 				(font
