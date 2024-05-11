@@ -4219,8 +4219,7 @@
 	)
 	(symbol
 		(lib_id "Custom:PESD2CAN")
-		(at 231.14 74.93 0)
-		(mirror y)
+		(at 231.14 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4228,7 +4227,7 @@
 		(dnp no)
 		(uuid "79623ab6-dba2-4c08-9810-1c640135aa1b")
 		(property "Reference" "D10"
-			(at 231.0765 82.8845 0)
+			(at 231.0765 66.9755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +4235,7 @@
 			)
 		)
 		(property "Value" "PESD2CAN"
-			(at 231.0765 80.4602 0)
+			(at 231.0765 69.3998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +4243,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 231.14 82.55 0)
+			(at 231.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 72.39 0)
+			(at 229.87 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
