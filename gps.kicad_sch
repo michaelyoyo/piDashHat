@@ -5920,7 +5920,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 57.15 49.53 90)
+		(at 43.18 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5929,23 +5929,25 @@
 		(fields_autoplaced yes)
 		(uuid "8aaa0fdf-1f1d-4bf0-8275-4fe82748393c")
 		(property "Reference" "FB1"
-			(at 57.0992 42.7439 90)
+			(at 46.5836 76.3086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "1.8k @ 100MHz"
-			(at 57.0992 45.1682 90)
+			(at 46.5836 78.7329 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 57.15 51.308 90)
+			(at 44.958 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5954,7 +5956,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 49.53 0)
+			(at 43.18 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5963,7 +5965,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 57.15 49.53 0)
+			(at 43.18 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5972,7 +5974,7 @@
 			)
 		)
 		(property "Mfg Part Number" "BLM15HD182SN1D"
-			(at 57.15 49.53 0)
+			(at 43.18 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6961,7 +6963,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 43.18 77.47 90)
+		(at 57.15 49.53 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -6970,25 +6972,23 @@
 		(fields_autoplaced yes)
 		(uuid "f5c49db1-840d-4d18-a040-1cf88bc6e770")
 		(property "Reference" "JP3"
-			(at 44.831 76.2578 90)
+			(at 57.15 44.4965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "PA EN"
-			(at 44.831 78.6821 90)
+			(at 57.15 46.9208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 43.18 77.47 0)
+			(at 57.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6997,7 +6997,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 77.47 0)
+			(at 57.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7006,7 +7006,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 43.18 77.47 0)
+			(at 57.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7015,7 +7015,7 @@
 			)
 		)
 		(property "Mfg Part Number" "--"
-			(at 43.18 77.47 0)
+			(at 57.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
