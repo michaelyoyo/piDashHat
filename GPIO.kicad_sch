@@ -3736,6 +3736,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg Part Number" "105309-1208"
+			(at 55.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "22a6bf83-0a04-4d57-86bd-ea3fff82ed73")
 		)
@@ -3815,6 +3824,15 @@
 		)
 		(property "Description" " "
 			(at 158.242 24.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part Number" "MAX22193ATP+"
+			(at 158.75 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4667,6 +4685,15 @@
 		)
 		(property "Description" "1.5A High speed power MOSFET driver with inverting output, SOT-23-5"
 			(at 146.558 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part Number" "IX4427MTR"
+			(at 146.05 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)

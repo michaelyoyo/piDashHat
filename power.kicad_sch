@@ -5410,6 +5410,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg Part Number" "--"
+			(at 266.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7da37a77-4732-4621-adb2-685786f5eef5")
 		)

@@ -5451,6 +5451,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg Part Number" "--"
+			(at 86.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d308949f-f8a1-4bf3-9be6-1c746296fbfb")
 		)
@@ -6340,6 +6349,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg Part Number" "C0603C470K5RACAUTO"
+			(at 69.85 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9a0dafbe-a68b-41e7-a006-f6ffae187f1d")
 		)
@@ -6778,6 +6796,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg Part Number" "--"
+			(at 100.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f63ecd06-c664-41e5-9b18-e90c20e8df15")
 		)
@@ -6979,6 +7006,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 43.18 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part Number" "--"
 			(at 43.18 77.47 0)
 			(effects
 				(font

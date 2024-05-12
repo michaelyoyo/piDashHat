@@ -7421,7 +7421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part Number" "105314-1104"
+		(property "Mfg Part Number" "105310-1104"
 			(at 267.97 115.57 0)
 			(effects
 				(font
@@ -7851,6 +7851,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 260.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part Number" "--"
 			(at 260.35 49.53 0)
 			(effects
 				(font
