@@ -4486,7 +4486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part Number" "2N7002"
+		(property "Mfg Part Number" "BSS84"
 			(at 160.02 113.03 0)
 			(effects
 				(font

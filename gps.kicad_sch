@@ -4585,7 +4585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Custom:L_0806_2016Metric"
 			(at 151.13 59.69 0)
 			(effects
 				(font
@@ -5656,7 +5656,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Custom:D_SOD-323HE"
 			(at 146.05 49.53 0)
 			(effects
 				(font

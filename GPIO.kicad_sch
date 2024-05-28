@@ -3441,16 +3441,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 102.87) (xy 104.14 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e652f4f8-ae63-4f66-88ec-2e355f2b2386")
-	)
-	(wire
-		(pts
 			(xy 135.89 55.88) (xy 146.05 55.88)
 		)
 		(stroke
@@ -3610,18 +3600,6 @@
 			(justify left)
 		)
 		(uuid "10003978-d114-41d0-8d33-5c252c905d26")
-	)
-	(hierarchical_label "+12V_{raw}"
-		(shape input)
-		(at 104.14 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "36dc831c-2d60-4107-8dfc-5245c32e8d04")
 	)
 	(hierarchical_label "OUT2"
 		(shape input)
