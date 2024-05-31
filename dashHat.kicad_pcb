@@ -13611,7 +13611,7 @@
 		(descr "QFN, 16 Pin (http://www.intersil.com/content/dam/Intersil/documents/l16_/l16.5x5.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U9"
-			(at 3.683 2.413 0)
+			(at -3.81 2.032 0)
 			(layer "F.SilkS")
 			(uuid "3280c8f4-a9e8-4f65-b83a-af3ccd4aa56f")
 			(effects
