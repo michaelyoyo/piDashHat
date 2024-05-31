@@ -3323,12 +3323,6 @@
 		(uuid "6b93e9c1-5ce4-4aed-b135-a2a0a8d29315")
 	)
 	(junction
-		(at 154.94 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6dd4d328-1a77-44eb-a564-49bb96a8eb2e")
-	)
-	(junction
 		(at 144.78 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3339,6 +3333,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "756198bd-782f-43da-a067-06d9dec2d73e")
+	)
+	(junction
+		(at 154.94 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c7cdbf8-0065-47c2-81f8-5f2405019646")
 	)
 	(junction
 		(at 27.94 66.04)
@@ -3603,16 +3603,6 @@
 			(type default)
 		)
 		(uuid "085ae3b0-5e92-4e35-8dae-7d8606d80565")
-	)
-	(wire
-		(pts
-			(xy 154.94 45.72) (xy 154.94 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0adba935-e2fe-4c21-b900-273fc785923a")
 	)
 	(wire
 		(pts
@@ -4106,16 +4096,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 66.04) (xy 167.64 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "471f382a-91e0-4afe-b220-03f22c597060")
-	)
-	(wire
-		(pts
 			(xy 215.9 44.45) (xy 215.9 48.26)
 		)
 		(stroke
@@ -4373,6 +4353,16 @@
 			(type default)
 		)
 		(uuid "6b3051bc-17c9-434a-941d-423f09f4c89f")
+	)
+	(wire
+		(pts
+			(xy 154.94 45.72) (xy 154.94 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd1e57f-c828-451f-aa1a-6c8b051eb15b")
 	)
 	(wire
 		(pts
@@ -5226,6 +5216,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 60.96) (xy 154.94 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71333d8-4b2a-4bd4-80d7-25deaf9beb84")
+	)
+	(wire
+		(pts
 			(xy 72.39 66.04) (xy 82.55 66.04)
 		)
 		(stroke
@@ -5443,6 +5443,16 @@
 			(type default)
 		)
 		(uuid "f40a88bd-87b4-4804-93a7-74ff873335b6")
+	)
+	(wire
+		(pts
+			(xy 154.94 66.04) (xy 167.64 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46e1edc-8465-4d87-a31b-77ee34e9d4bb")
 	)
 	(wire
 		(pts
@@ -6498,6 +6508,76 @@
 			(project "dashHat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c83fc454-3a65-469f-ae3e-cbb574f94c8f"
 					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20fcf385-41a3-4503-8033-1024a49d7235")
+		(property "Reference" "R48"
+			(at 156.718 55.9378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 156.718 58.3621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 153.162 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aed0c642-a822-4718-9c5f-a00736c82262")
+		)
+		(pin "1"
+			(uuid "7c804135-d010-48ef-969f-3251bbff30e3")
+		)
+		(instances
+			(project "dashHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c83fc454-3a65-469f-ae3e-cbb574f94c8f"
+					(reference "R48")
 					(unit 1)
 				)
 			)
