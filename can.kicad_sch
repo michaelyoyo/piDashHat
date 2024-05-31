@@ -3982,7 +3982,7 @@
 				)
 			)
 		)
-		(property "Value" "8MHz"
+		(property "Value" "12MHz"
 			(at 80.01 98.4828 0)
 			(effects
 				(font
@@ -4017,7 +4017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part Number" "FL0800008Q"
+		(property "Mfg Part Number" "FL1200112"
 			(at 80.01 101.6 0)
 			(effects
 				(font

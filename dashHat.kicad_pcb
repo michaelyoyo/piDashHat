@@ -27963,7 +27963,7 @@
 		(descr "http://www.amphenolrf.com/132289.html")
 		(tags "SMA")
 		(property "Reference" "J6"
-			(at -3.81 -4.826 0)
+			(at -3.81 -5.461 0)
 			(layer "F.SilkS")
 			(uuid "e1c87e11-4d53-4ac6-8bde-02a2dcd1333c")
 			(effects
@@ -33655,7 +33655,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q12"
-			(at 0 -2.54 360)
+			(at 0 -2.54 0)
 			(layer "B.SilkS")
 			(uuid "b1531e06-fbb7-4bb5-9389-98445620fa1c")
 			(effects
@@ -33667,7 +33667,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "91d3c745-da11-40a0-b477-ff4e1184b427")
 			(effects
@@ -33879,7 +33879,7 @@
 			(uuid "f71a677e-8a69-4e1d-9b06-807b6180a086")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "2559763a-8f9d-4ddc-a3b7-94d2c46d197a")
 			(effects
@@ -38482,7 +38482,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "8MHz"
+		(property "Value" "12MHz"
 			(at 0 -2.45 180)
 			(layer "B.Fab")
 			(uuid "1ecff4eb-36d5-4dd5-9c29-a7d6c462ef0d")
@@ -38533,7 +38533,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfg Part Number" "FL0800008Q"
+		(property "Mfg Part Number" "FL1200112"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47852,6 +47852,15 @@
 		(uuid "2a918828-fd81-42a9-b9be-5d954fa52d60")
 	)
 	(via
+		(at 106.604 74.981)
+		(size 0.508)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "2b62b922-599b-4443-82ce-930cfd67ca52")
+	)
+	(via
 		(at 108.128 99.3396)
 		(size 0.508)
 		(drill 0.254)
@@ -47919,6 +47928,15 @@
 		(free yes)
 		(net 1)
 		(uuid "37ec5478-ebe6-40ae-8279-4a1312f36604")
+	)
+	(via
+		(at 106.604 73.33)
+		(size 0.508)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "38065f1a-ad77-41c8-b8ad-74600f8d76ab")
 	)
 	(via
 		(at 124.638 74.219)
@@ -48089,6 +48107,15 @@
 		(uuid "58a095fa-2472-49ad-a5f1-987d319ba346")
 	)
 	(via
+		(at 110.795 69.901)
+		(size 0.508)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "58e1f401-d7cc-41e6-8803-8bc60e16f1b2")
+	)
+	(via
 		(at 143.434 78.791)
 		(size 0.508)
 		(drill 0.254)
@@ -48193,6 +48220,15 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "6e0ffd0b-e9ac-472d-9be1-458fa6458b87")
+	)
+	(via
+		(at 105.207 61.011)
+		(size 0.508)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "70b6ba08-3284-4d7e-9d41-2d854be7e5a9")
 	)
 	(via
 		(at 132.131 66.472)
@@ -48330,6 +48366,15 @@
 		(uuid "88b5bb8a-e3b3-4bb7-b969-57bd0849566e")
 	)
 	(via
+		(at 107.239 61.011)
+		(size 0.508)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "8be45441-34cc-49d1-bab5-08eb71842ce7")
+	)
+	(via
 		(at 135.179 66.472)
 		(size 0.508)
 		(drill 0.254)
@@ -48426,6 +48471,15 @@
 		(free yes)
 		(net 1)
 		(uuid "ab053a23-0e5d-424d-abc8-da656d98aca8")
+	)
+	(via
+		(at 109.144 61.011)
+		(size 0.508)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "aca28907-d778-4ee4-bfaf-426d27113392")
 	)
 	(via
 		(at 118.542 67.488)
@@ -48664,6 +48718,15 @@
 		(uuid "e83839e6-bc34-421f-a778-aa37345e7670")
 	)
 	(via
+		(at 107.874 71.425)
+		(size 0.508)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "e95f31d4-ffe3-41a5-a0e7-3122fbbfd26e")
+	)
+	(via
 		(at 158.547 84.76)
 		(size 0.508)
 		(drill 0.254)
@@ -48714,6 +48777,15 @@
 		(free yes)
 		(net 1)
 		(uuid "ef16a6c9-0080-4ac3-93d8-2d34d191f4dd")
+	)
+	(via
+		(at 109.144 62.535)
+		(size 0.508)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "f059a191-07f5-40c9-8ffe-837b6d789035")
 	)
 	(via
 		(at 124.638 75.235)
