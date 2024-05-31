@@ -2561,6 +2561,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 96.52) (xy 66.04 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "080e7732-6e37-406d-9b9b-db852f427a41")
+	)
+	(wire
+		(pts
 			(xy 171.45 43.18) (xy 219.71 43.18)
 		)
 		(stroke
@@ -2638,16 +2648,6 @@
 			(type default)
 		)
 		(uuid "19f5323a-9067-416d-8509-9e3c1415265f")
-	)
-	(wire
-		(pts
-			(xy 60.96 93.98) (xy 66.04 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a029bb8-af9e-4070-9ea0-c98a7902b204")
 	)
 	(wire
 		(pts
@@ -2808,6 +2808,16 @@
 			(type default)
 		)
 		(uuid "5298b037-1f73-4f2b-92bd-8b614727df18")
+	)
+	(wire
+		(pts
+			(xy 63.5 93.98) (xy 63.5 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54447ce2-72f9-453d-ae3f-db641950b666")
 	)
 	(wire
 		(pts
@@ -3031,16 +3041,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 93.98) (xy 66.04 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9495fb94-177f-4887-b41e-49bca1a55edc")
-	)
-	(wire
-		(pts
 			(xy 175.26 58.42) (xy 171.45 58.42)
 		)
 		(stroke
@@ -3081,6 +3081,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 93.98) (xy 63.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b009365-bfdc-45a4-a567-447995da8adb")
+	)
+	(wire
+		(pts
 			(xy 175.26 67.31) (xy 175.26 58.42)
 		)
 		(stroke
@@ -3108,16 +3118,6 @@
 			(type default)
 		)
 		(uuid "a0d4f8f1-3130-49a0-81ff-054249114f9b")
-	)
-	(wire
-		(pts
-			(xy 63.5 96.52) (xy 60.96 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a19ed070-c910-4d97-a453-1f81be807509")
 	)
 	(wire
 		(pts
@@ -3451,16 +3451,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 133.35) (xy 63.5 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9564120-770b-46c5-81a6-04ebcdb56606")
-	)
-	(wire
-		(pts
 			(xy 130.81 50.8) (xy 146.05 50.8)
 		)
 		(stroke
@@ -3578,6 +3568,16 @@
 			(type default)
 		)
 		(uuid "fc8f64f1-a049-410c-85da-8b038d183f52")
+	)
+	(wire
+		(pts
+			(xy 60.96 96.52) (xy 66.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe235df7-cee5-464b-a48a-64cccf40e884")
 	)
 	(wire
 		(pts
@@ -5014,7 +5014,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "430"
 			(at 113.03 76.3962 90)
 			(effects
 				(font
@@ -5243,7 +5243,7 @@
 				)
 			)
 		)
-		(property "Value" "18k"
+		(property "Value" "5.1k"
 			(at 129.54 42.9838 90)
 			(effects
 				(font
@@ -5683,7 +5683,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "430"
 			(at 113.03 94.1762 90)
 			(effects
 				(font
@@ -6091,7 +6091,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "430"
 			(at 113.03 67.5062 90)
 			(effects
 				(font
@@ -6159,7 +6159,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "430"
 			(at 113.03 85.2862 90)
 			(effects
 				(font

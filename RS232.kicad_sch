@@ -2454,7 +2454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX3224-MAX3245.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/609/MAX3224E_MAX3245E-3128344.pdf"
 			(at 128.27 76.2 0)
 			(effects
 				(font

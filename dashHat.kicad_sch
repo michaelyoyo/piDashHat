@@ -4826,7 +4826,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 82.55) (xy 88.9 82.55)
+			(xy 68.58 80.01) (xy 88.9 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4853,6 +4853,16 @@
 			(type solid)
 		)
 		(uuid "707b993a-397a-40ee-bc4e-978ea0af003d")
+	)
+	(wire
+		(pts
+			(xy 68.58 87.63) (xy 88.9 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "736e8cdf-09a5-464f-bc39-afe1cb35a753")
 	)
 	(wire
 		(pts
@@ -5116,6 +5126,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 85.09) (xy 88.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9800aca8-37e7-42bc-8db3-a8149ac1e64d")
+	)
+	(wire
+		(pts
 			(xy 68.58 64.77) (xy 81.28 64.77)
 		)
 		(stroke
@@ -5306,7 +5326,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 85.09) (xy 88.9 85.09)
+			(xy 68.58 82.55) (xy 88.9 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5724,6 +5744,17 @@
 		)
 		(uuid "c357e5bc-24bf-42dc-8873-a5c271e8db3c")
 	)
+	(label "GPIO5"
+		(at 88.9 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "041ed8bc-86ac-4c6c-8bb5-a9278aef0d5e")
+	)
 	(label "ID_SDA"
 		(at 115.57 101.6 0)
 		(fields_autoplaced yes)
@@ -5780,7 +5811,7 @@
 		(uuid "1a04dd3c-a998-471b-a6ad-d738b9730bca")
 	)
 	(label "GPIO3{slash}SCL1"
-		(at 88.9 85.09 180)
+		(at 88.9 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5813,7 +5844,7 @@
 		(uuid "29d046c2-f681-4254-89b3-1ec3aa495433")
 	)
 	(label "GPIO2{slash}SDA1"
-		(at 88.9 82.55 180)
+		(at 88.9 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6000,7 +6031,7 @@
 		(uuid "831c710c-4564-4e13-951a-b3746ba43c78")
 	)
 	(label "GPIO6"
-		(at 88.9 107.95 180)
+		(at 88.9 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6087,8 +6118,8 @@
 		)
 		(uuid "a9ed66d3-a7fc-4839-b265-b9a21ee7fc85")
 	)
-	(label "GPIO5"
-		(at 88.9 105.41 180)
+	(label "GPIO4{slash}GPCLK0"
+		(at 88.9 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6096,7 +6127,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "b0897bd5-a278-4dcd-9cb8-ac54cb180993")
+		(uuid "afadc9b4-54bc-4fcc-a71c-3d87ef92b494")
 	)
 	(label "GPIO14{slash}TXD0"
 		(at 88.9 45.72 180)
@@ -6163,6 +6194,17 @@
 			(justify left bottom)
 		)
 		(uuid "bf5187f9-d8ce-473f-9f60-335df0d0356a")
+	)
+	(label "GPIO19{slash}PCM.FS"
+		(at 88.9 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cc0a9b0b-2bf9-4ca4-b2b6-61dc95ad0ba6")
 	)
 	(label "GPIO25"
 		(at 88.9 36.83 180)
@@ -7034,7 +7076,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1.8k"
 			(at 222.758 111.7021 0)
 			(effects
 				(font
@@ -8495,7 +8537,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1.8k"
 			(at 243.078 133.2921 0)
 			(effects
 				(font
@@ -9011,7 +9053,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 68.58 82.55 0)
+			(at 68.58 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9021,7 +9063,7 @@
 			(uuid "5510993d-b0ff-404b-bb9f-d59f0494c28a")
 		)
 		(pin "SCL" bidirectional
-			(at 68.58 85.09 0)
+			(at 68.58 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9029,6 +9071,26 @@
 				(justify right)
 			)
 			(uuid "7172f737-fc1d-4b1d-915d-ea70d38f5c33")
+		)
+		(pin "TX" output
+			(at 68.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4fe7e500-5a4b-4d5f-9cfa-50574a7795e5")
+		)
+		(pin "RX" input
+			(at 68.58 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "99e33d07-0f06-4969-88aa-09aa128387e4")
 		)
 		(instances
 			(project "dashHat"
