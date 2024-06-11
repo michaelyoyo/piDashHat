@@ -4401,7 +4401,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.9k"
+		(property "Value" "3.3k"
 			(at 72.6187 88.7793 0)
 			(effects
 				(font
@@ -5999,7 +5999,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.9k"
+		(property "Value" "3.3k"
 			(at 80.2387 88.7793 0)
 			(effects
 				(font
@@ -6441,7 +6441,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "270"
 			(at 249.428 87.5721 0)
 			(effects
 				(font
@@ -6510,7 +6510,7 @@
 				)
 			)
 		)
-		(property "Value" "3.9k"
+		(property "Value" "3.3k"
 			(at 162.56 46.7938 90)
 			(effects
 				(font

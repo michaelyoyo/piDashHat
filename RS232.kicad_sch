@@ -2784,7 +2784,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "270"
 			(at 116.078 145.9921 0)
 			(effects
 				(font
@@ -2854,7 +2854,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "270"
 			(at 51.308 143.4521 0)
 			(effects
 				(font
@@ -3555,7 +3555,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "270"
 			(at 77.978 143.4521 0)
 			(effects
 				(font

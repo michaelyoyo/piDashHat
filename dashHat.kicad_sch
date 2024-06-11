@@ -7646,7 +7646,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "270"
 			(at 127.508 161.2321 0)
 			(effects
 				(font
@@ -7940,7 +7940,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.9k"
+		(property "Value" "3.3k"
 			(at 81.5087 158.6293 0)
 			(effects
 				(font
@@ -8019,7 +8019,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "270"
 			(at 147.828 161.2321 0)
 			(effects
 				(font
@@ -8187,7 +8187,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.8k"
+		(property "Value" "1.5k"
 			(at 222.758 111.7021 0)
 			(effects
 				(font
@@ -8632,7 +8632,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.9k"
+		(property "Value" "3.3k"
 			(at 89.1287 158.6293 0)
 			(effects
 				(font
@@ -8711,7 +8711,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "270"
 			(at 116.078 161.2321 0)
 			(effects
 				(font
@@ -9822,7 +9822,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "270"
 			(at 137.668 161.2321 0)
 			(effects
 				(font
@@ -9893,7 +9893,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.8k"
+		(property "Value" "1.5k"
 			(at 243.078 133.2921 0)
 			(effects
 				(font
