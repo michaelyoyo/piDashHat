@@ -921,6 +921,301 @@
 				)
 			)
 		)
+		(symbol "Transistor_FET:2N7002"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N7002"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel Switching MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N7002_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "2N7002_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_FET:BSS84"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1503,16 +1798,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 121.92) (xy 114.3 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0488b6e4-7237-423b-9d55-bf3576fe6600")
-	)
-	(wire
-		(pts
 			(xy 148.59 91.44) (xy 224.79 91.44)
 		)
 		(stroke
@@ -1553,17 +1838,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 130.81) (xy 102.87 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d0c3e8a-bfa9-42c5-ae31-55ce74429f79")
-	)
-	(wire
-		(pts
-			(xy 114.3 160.02) (xy 114.3 163.83)
+			(xy 114.3 149.86) (xy 114.3 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1673,13 +1948,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 148.59) (xy 114.3 152.4)
+			(xy 114.3 138.43) (xy 114.3 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "45e5d098-dffe-41b3-90d2-c6fe2f268960")
+	)
+	(wire
+		(pts
+			(xy 114.3 162.56) (xy 114.3 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514a2a2b-c2d8-4158-8ff6-39ba36fcb99b")
 	)
 	(wire
 		(pts
@@ -1793,6 +2078,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 111.76) (xy 102.87 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd3cb64-f5e2-417c-9e73-43d38a09b9ba")
+	)
+	(wire
+		(pts
 			(xy 161.29 115.57) (xy 128.27 115.57)
 		)
 		(stroke
@@ -1823,7 +2118,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 135.89) (xy 114.3 140.97)
+			(xy 114.3 121.92) (xy 114.3 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1850,6 +2145,16 @@
 			(type default)
 		)
 		(uuid "c5c3592a-c0a6-4c91-9fd9-9782e116d7ce")
+	)
+	(wire
+		(pts
+			(xy 106.68 157.48) (xy 102.87 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67ec4a7-84c4-46ed-9968-28a3a8c41882")
 	)
 	(wire
 		(pts
@@ -1910,16 +2215,6 @@
 			(type default)
 		)
 		(uuid "dd454383-9615-4ab9-aa18-66be9ba41783")
-	)
-	(wire
-		(pts
-			(xy 102.87 130.81) (xy 102.87 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd851339-fbcf-4620-9e21-8edf09207d6b")
 	)
 	(wire
 		(pts
@@ -2021,7 +2316,7 @@
 		)
 		(uuid "122731bc-1312-4386-8871-4b71804380ec")
 	)
-	(text "1 - No device connected\n0 - Device connected and on"
+	(text "0 - No device connected\n1 - Device connected and on"
 		(exclude_from_sim no)
 		(at 88.138 101.092 0)
 		(effects
@@ -2043,7 +2338,7 @@
 	)
 	(text "Device Connected"
 		(exclude_from_sim no)
-		(at 125.476 154.432 0)
+		(at 125.476 132.842 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2618,91 +2913,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS84")
-		(at 111.76 130.81 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a8ff3ee-36d7-4d31-ac17-f516afffc65a")
-		(property "Reference" "Q6"
-			(at 116.967 132.0222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS84"
-			(at 116.967 129.5979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 116.84 128.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
-			(at 116.84 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
-			(at 111.76 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part Number" "BSS84"
-			(at 111.76 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22e17e69-2266-4b3b-89ae-fbacadd82f2c")
-		)
-		(pin "1"
-			(uuid "baf0893f-f62c-4fca-a72e-fe0642977402")
-		)
-		(pin "3"
-			(uuid "f28910b5-505a-4d9f-bfde-3c18eeb7df48")
-		)
-		(instances
-			(project "dashHat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4ce8c0d0-7019-4708-97c2-a0fe11867b33"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 49.53 119.38 0)
 		(unit 1)
@@ -2767,7 +2977,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 144.78 0)
+		(at 114.3 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2776,7 +2986,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c3b7e87-e756-4d64-b071-133d6bba22af")
 		(property "Reference" "R34"
-			(at 116.078 143.5678 0)
+			(at 116.078 144.8378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,7 +2995,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 116.078 145.9921 0)
+			(at 116.078 147.2621 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,7 +3004,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 112.522 144.78 90)
+			(at 112.522 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,7 +3013,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 144.78 0)
+			(at 114.3 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +3022,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 114.3 144.78 0)
+			(at 114.3 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +3117,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 163.83 0)
+		(at 114.3 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2915,7 +3125,7 @@
 		(dnp no)
 		(uuid "714c0a46-c834-42f7-82ce-7e15296cf07f")
 		(property "Reference" "#PWR047"
-			(at 114.3 170.18 0)
+			(at 114.3 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,7 +3134,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.4143 168.1544 0)
+			(at 114.4143 171.9644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +3142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 163.83 0)
+			(at 114.3 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +3150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 163.83 0)
+			(at 114.3 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +3158,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 163.83 0)
+			(at 114.3 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,6 +3378,91 @@
 			(project "dashHat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4ce8c0d0-7019-4708-97c2-a0fe11867b33"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 111.76 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b995294-bf36-4a50-92ab-e96dc64539e6")
+		(property "Reference" "Q6"
+			(at 116.967 156.2678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 116.967 158.6921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 116.84 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 116.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 111.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part Number" "2N7002"
+			(at 111.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6547643c-833d-4810-9844-36e847d49d82")
+		)
+		(pin "3"
+			(uuid "da436f60-9eba-49bd-b129-c9f5837005e8")
+		)
+		(pin "1"
+			(uuid "373b1c68-bbf4-46d6-a18f-e6a973326161")
+		)
+		(instances
+			(project "dashHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4ce8c0d0-7019-4708-97c2-a0fe11867b33"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -3756,7 +4051,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.3 156.21 90)
+		(at 114.3 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3765,7 +4060,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2189c5e-ea1a-4a8f-9623-b0052f49aeaf")
 		(property "Reference" "D13"
-			(at 117.221 156.5853 90)
+			(at 117.221 134.9953 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,7 +4069,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 117.221 159.0096 90)
+			(at 117.221 137.4196 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +4078,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 114.3 156.21 0)
+			(at 114.3 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,7 +4087,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 156.21 0)
+			(at 114.3 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,7 +4096,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.3 156.21 0)
+			(at 114.3 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,7 +4105,7 @@
 			)
 		)
 		(property "Mfg Part Number" " HSMG-C190"
-			(at 114.3 156.21 0)
+			(at 114.3 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
